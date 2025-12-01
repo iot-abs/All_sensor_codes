@@ -7,16 +7,16 @@
 
 // ---------------------- Configuration ----------------------
 
-const char* ssid = "Absolute_1stFloor";
-const char* password = "Abs@2018";
+const char* ssid = "";
+const char* password = "";
 
 // MQTT (HiveMQ Cloud)
-const char* mqttServer = "0a8926ff283644b5894dedaed07f99a2.s1.eu.hivemq.cloud";
+const char* mqttServer = "";
 const int mqttPort = 8883;
-const char* mqttUser = "testing";
-const char* mqttPassword = "Test@123";
+const char* mqttUser = "";
+const char* mqttPassword = "";
 const char* mqttClientID = "ESP32SPS30";
-const char* mqttTopic = "ampl/sps30/data";
+const char* mqttTopic = "";
 
 // ---------------------- Sensors ----------------------
 
