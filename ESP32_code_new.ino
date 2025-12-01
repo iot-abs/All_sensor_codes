@@ -7,15 +7,15 @@
 #include <ArduinoJson.h>
 
 // ========== WiFi & MQTT Configuration ==========
-const char* ssid = "Airtel_Absolute Motion";
-const char* password = "Abs@2018";
+const char* ssid = "";
+const char* password = "";
 
-const char* mqttServer   = "0a8926ff283644b5894dedaed07f99a2.s1.eu.hivemq.cloud";
-const int   mqttPort     = 8883;
-const char* mqttUser     = "testing";
-const char* mqttPassword = "Test@123";
+const char* mqttServer   = "";
+const int   mqttPort     = ;
+const char* mqttUser     = "";
+const char* mqttPassword = "";
 const char* mqttClientID = "ESP32Client";
-const char* mqttTopic    = "AMPL/sensor/data";
+const char* mqttTopic    = "";
 
 // ========== Global Variables ==========
 WiFiClientSecure espClient;
